@@ -68,6 +68,7 @@ int main(int argc, char** argv) {
 		output << formattedMAC.str();
 	}
 
+	// Outputting as bytecode
 	conv2hex(output.str());
 	
 	return 0;
